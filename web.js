@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
              buff = new Buffer(data);
             
      });
-      response.send(buffer.toString());
+      response.send(buff.toString());
 });
 
 var port = process.env.PORT || 5000;
